@@ -7,6 +7,7 @@ scalaVersion := "2.11.8"
 libraryDependencies ++= Seq(
   "com.google.guava" % "guava" % "21.0",
   "com.typesafe.scala-logging" %% "scala-logging" % "3.5.+",
+  "es.nitaur.markdown" % "txtmark" % "0.16",
   "org.specs2" %% "specs2-core" % "3.8.+" % "test",
   "org.specs2" %% "specs2-junit" % "3.8.+" % "test"
 )
